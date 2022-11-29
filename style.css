@@ -1,0 +1,41 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+#error {
+    background-color: red;
+    color: white;
+    margin-top: 40px;
+    width: 440px;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.nom, .prenom, .age{
+    width: 400px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+
+.valider {
+    width: 100px;
+    height: 30px;
+    background-color: lightblue;
+    color: #333;
+    border-radius: 8px;
+}
+
+.annuler {
+    background-color: rgb(243, 103, 103);
+}
+
+legend {
+    text-align: center;
+}
+fieldset {
+    width: 410px;
+}
